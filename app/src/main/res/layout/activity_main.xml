@@ -156,7 +156,7 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/equal"
-            style="@style/Numbers_Button"
+            style="@style/Operators_Button"
             android:text="="/>
 
     </LinearLayout>

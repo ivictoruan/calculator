@@ -6,6 +6,10 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Button numberZero, numberOne, numberTwo, numberThree, numberFour, numberFive, numberSix,
+            numberSeven, numberEight, numberNine, C, Division, Multiplication, Plus, Subtration,
+            Equal, Dot, backSpace;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
