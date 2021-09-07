@@ -12,27 +12,23 @@
         android:id="@+id/txt_expression"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="5+5"
         android:textColor="@color/black"
         android:textSize="40sp"
         android:gravity="end"
         android:layout_marginEnd="20dp"
         android:ellipsize="start"
-        android:singleLine="true"
-        />
+        android:singleLine="true" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/txt_result"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="10"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:gravity="end"
         android:layout_marginEnd="20dp"
         android:ellipsize="end"
-        android:maxLines="1"
-        />
+        android:maxLines="1" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -99,7 +95,7 @@
             android:text="6"/>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/bt_plus"
+            android:id="@+id/bt_sum"
             style="@style/Operators_Button"
             android:text="+" />
     </LinearLayout>
@@ -160,7 +156,5 @@
             android:text="="/>
 
     </LinearLayout>
-
-
 
 </LinearLayout>
