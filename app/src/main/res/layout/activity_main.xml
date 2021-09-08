@@ -89,10 +89,11 @@
             android:id="@+id/number_five"
             style="@style/Numbers_Button"
             android:text="5"/>
+
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/number_six"
             style="@style/Numbers_Button"
-            android:text="6"/>
+            android:text="6" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/bt_sum"
