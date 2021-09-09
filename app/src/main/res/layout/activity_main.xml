@@ -135,7 +135,7 @@
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/dot"
+            android:id="@+id/bt_dot"
             style="@style/Numbers_Button"
             android:text="."/>
 
